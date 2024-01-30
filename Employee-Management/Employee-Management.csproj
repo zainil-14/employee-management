@@ -67,12 +67,93 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Addemp.aspx" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="css\icons\tabler-icons\fonts\tabler-icons.svg" />
+    <Content Include="css\icons\tabler-icons\tabler-icons.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\styles.min.css" />
+    <Content Include="deleteemp.aspx" />
+    <Content Include="home.aspx" />
+    <Content Include="images\backgrounds\logo.png" />
+    <Content Include="images\backgrounds\quizify.png" />
+    <Content Include="images\backgrounds\rocket.png" />
+    <Content Include="images\logos\dark-logo.svg" />
+    <Content Include="images\logos\favicon.png" />
+    <Content Include="images\logos\quizify1.png" />
+    <Content Include="images\logos\quizify2.png" />
+    <Content Include="images\products\s1.jpg" />
+    <Content Include="images\products\s11.jpg" />
+    <Content Include="images\products\s4.jpg" />
+    <Content Include="images\products\s5.jpg" />
+    <Content Include="images\products\s7.jpg" />
+    <Content Include="images\profile\user-1.jpg" />
+    <Content Include="login.aspx" />
+    <Content Include="updateemp.aspx" />
+    <Content Include="viewemp.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Addemp.aspx.cs">
+      <DependentUpon>Addemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Addemp.aspx.designer.cs">
+      <DependentUpon>Addemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="deleteemp.aspx.cs">
+      <DependentUpon>deleteemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="deleteemp.aspx.designer.cs">
+      <DependentUpon>deleteemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="emp.Master.cs">
+      <DependentUpon>emp.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="emp.Master.designer.cs">
+      <DependentUpon>emp.Master</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="updateemp.aspx.cs">
+      <DependentUpon>updateemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="updateemp.aspx.designer.cs">
+      <DependentUpon>updateemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="viewemp.aspx.cs">
+      <DependentUpon>viewemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="viewemp.aspx.designer.cs">
+      <DependentUpon>viewemp.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="emp.Master" />
+    <Content Include="css\icons\tabler-icons\fonts\tabler-icons.eot" />
+    <Content Include="css\icons\tabler-icons\fonts\tabler-icons.ttf" />
+    <Content Include="css\icons\tabler-icons\fonts\tabler-icons.woff" />
+    <Content Include="css\icons\tabler-icons\fonts\tabler-icons.woff2" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
