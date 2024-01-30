@@ -6,8 +6,8 @@ Password:- admin
 
 Then You Can
 
-1) Add Employee
-2) Update Employee
+1) Add Employee- Formate Of Date to be Entered is DD-MM-YYYY.
+2) Update Employee- Formate Of Date to be Entered is DD-MM-YYYY.
 3) Delete Employee
 4) View Employees
    
